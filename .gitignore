@@ -1,0 +1,60 @@
+### IDEA 专用文件 ###
+# IDEA 项目配置目录（包含项目结构、运行配置等）
+.idea/
+# IDEA 模块文件
+*.iml
+*.ipr
+*.iws
+# IDEA 生成的编译目录标记
+out/
+
+### Spring 后端项目 ###
+# Maven 构建产物
+target/
+# Gradle 构建产物（如果使用 Gradle）
+build/
+.gradle/
+# Maven 本地仓库缓存（无需提交）
+.m2/
+# 编译产生的字节码文件
+*.class
+# Spring 配置文件中可能包含敏感信息的环境配置
+application-dev.yml
+application-prod.yml
+application-test.yml
+application-dev.properties
+application-prod.properties
+application-test.properties
+# 日志文件
+logs/
+*.log
+# 临时文件
+*.tmp
+*.bak
+
+### 前端模块（若项目包含） ###
+# Node 依赖
+node_modules/
+# 前端构建产物
+dist/
+build/
+# 环境变量文件
+.env
+.env.*
+!.env.example  # 保留示例环境文件（如果有）
+# 包管理锁文件
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+# 前端工具缓存
+.eslintcache
+.prettiercache
+
+### 系统通用文件 ###
+# Windows 缩略图缓存
+Thumbs.db
+# Mac 系统文件
+.DS_Store
+# 各种编辑器临时文件
+*.swp
+*.swo
